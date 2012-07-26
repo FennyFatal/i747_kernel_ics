@@ -1,0 +1,1 @@
+cmd_drivers/media/video/msm_zsl/wfd/built-in.o :=  /opt/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/media/video/msm_zsl/wfd/built-in.o drivers/media/video/msm_zsl/wfd/mdp-subdev.o drivers/media/video/msm_zsl/wfd/enc-subdev.o drivers/media/video/msm_zsl/wfd/vsg-subdev.o drivers/media/video/msm_zsl/wfd/wfd-ioctl.o drivers/media/video/msm_zsl/wfd/wfd-util.o 

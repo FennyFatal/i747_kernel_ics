@@ -1,0 +1,1 @@
+cmd_firmware/built-in.o :=  /opt/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o firmware/built-in.o firmware/tsp_melfas/CORE.fw.gen.o firmware/tsp_melfas/PRIV.fw.gen.o firmware/tsp_melfas/PUBL.fw.gen.o 

@@ -1,0 +1,3 @@
+kernel/drivers/input/misc/pmic8xxx-pwrkey.ko
+kernel/drivers/input/misc/uinput.ko
+kernel/drivers/input/misc/bmp180.ko

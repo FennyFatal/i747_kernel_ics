@@ -1,0 +1,1 @@
+cmd_drivers/misc/inv_mpu/built-in.o :=  /opt/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/misc/inv_mpu/built-in.o drivers/misc/inv_mpu/mpu6050.o drivers/misc/inv_mpu/timerirq.o drivers/misc/inv_mpu/accel/built-in.o drivers/misc/inv_mpu/compass/built-in.o 

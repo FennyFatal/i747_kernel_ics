@@ -1,0 +1,1 @@
+cmd_drivers/media/video/msm_zsl/sensors/built-in.o :=  /opt/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/media/video/msm_zsl/sensors/built-in.o drivers/media/video/msm_zsl/sensors/msm_sensor.o drivers/media/video/msm_zsl/sensors/s5c73m3.o drivers/media/video/msm_zsl/sensors/s5c73m3_spi.o drivers/media/video/msm_zsl/sensors/s5k6a3yx.o 
