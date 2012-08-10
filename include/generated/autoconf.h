@@ -1,6 +1,6 @@
 /*
  * Automatically generated C config: don't edit
- * Linux/arm 3.0.8 Kernel Configuration
+ * Linux/arm 3.0.39 Kernel Configuration
  */
 #define CONFIG_NF_CONNTRACK_H323 1
 #define CONFIG_SCSI_DMA 1
@@ -701,7 +701,7 @@
 #define CONFIG_MSM_CAMERA 1
 #define CONFIG_DEBUG_KERNEL 1
 #define CONFIG_COMPAT_BRK 1
-#define CONFIG_LOCALVERSION ""
+#define CONFIG_LOCALVERSION "-fennyfatal"
 #define CONFIG_MACH_NO_WESTBRIDGE 1
 #define CONFIG_KERNEL_PMEM_EBI_REGION 1
 #define CONFIG_CRYPTO 1

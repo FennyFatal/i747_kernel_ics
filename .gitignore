@@ -1,3 +1,5 @@
+*lzo
+*cpio
 *lzma
 .version
 *.a
@@ -15,6 +17,7 @@ usr/.initramfs_data.cpio.d
 *.o
 *.ko
 zImage
+/Image
 *cmd
 *.old
 *.orig
