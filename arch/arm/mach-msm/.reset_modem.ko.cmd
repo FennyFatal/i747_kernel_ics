@@ -1,1 +1,0 @@
-cmd_arch/arm/mach-msm/reset_modem.ko := /opt/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/fenny/i747/scripts/module-common.lds --build-id  -o arch/arm/mach-msm/reset_modem.ko arch/arm/mach-msm/reset_modem.o arch/arm/mach-msm/reset_modem.mod.o

@@ -12,7 +12,7 @@
 @ GNU C (GCC) version 4.4.3 (arm-eabi)
 @	compiled by GNU C version 4.4.3, GMP version 4.2.4, MPFR version 2.4.1.
 @ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-@ options passed:  -nostdinc -I/home/fenny/i747/arch/arm/include
+@ options passed:  -nostdinc -I/home/fenny/i747_kernel_ics/arch/arm/include
 @ -Iarch/arm/include/generated -Iinclude -Iarch/arm/mach-msm/include
 @ -iprefix /opt/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/
 @ -D__USES_INITFINI__ -D__KERNEL__ -D__ -D__LINUX_ARM_ARCH__=7 -Uarm
@@ -482,8 +482,6 @@ foo:
 	.ascii	"ZONE_NORMAL\000"
 .LASF27:
 	.ascii	"PG_mappedtodisk\000"
-.LASF37:
-	.ascii	"PG_slob_free\000"
 .LASF11:
 	.ascii	"PG_locked\000"
 .LASF24:
@@ -514,8 +512,8 @@ foo:
 	.ascii	"PG_swapbacked\000"
 .LASF33:
 	.ascii	"PG_checked\000"
-.LASF1:
-	.ascii	"unsigned char\000"
+.LASF55:
+	.ascii	"/home/fenny/i747_kernel_ics\000"
 .LASF54:
 	.ascii	"kernel/bounds.c\000"
 .LASF19:
@@ -526,6 +524,8 @@ foo:
 	.ascii	"PCG_LOCK\000"
 .LASF42:
 	.ascii	"ZONE_HIGHMEM\000"
+.LASF1:
+	.ascii	"unsigned char\000"
 .LASF4:
 	.ascii	"unsigned int\000"
 .LASF12:
@@ -582,7 +582,7 @@ foo:
 	.ascii	"_Bool\000"
 .LASF31:
 	.ascii	"PG_mlocked\000"
-.LASF55:
-	.ascii	"/home/fenny/i747\000"
+.LASF37:
+	.ascii	"PG_slob_free\000"
 	.ident	"GCC: (GNU) 4.4.3"
 	.section	.note.GNU-stack,"",%progbits

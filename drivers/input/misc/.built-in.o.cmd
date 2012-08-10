@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/built-in.o :=  /opt/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/input/misc/built-in.o drivers/input/misc/pmic8xxx-pwrkey.o drivers/input/misc/uinput.o drivers/input/misc/bmp180.o 
